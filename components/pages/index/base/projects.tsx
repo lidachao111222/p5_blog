@@ -4,6 +4,7 @@ import {
   Link as ChakraLink,
   Text,
   VStack,
+  Image,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { FC, useState } from "react";
@@ -67,9 +68,11 @@ const Projects: FC<Props> = ({
     );
   };
 
-  const descriptionNode = (description: string) => {
-    return <Text color="gray.400">{description}</Text>;
-  };
+  const descriptionNode = (description) => {
+    const paragraphs = description.split('\n');
+    return paragraphs.map((paragraph, index) => <Text key={index} color="gray.400">{paragraph}</Text>);
+};
+
 
   const projectsNode = () => {
     if (!sortedProjects.length) {
@@ -101,6 +104,7 @@ const Projects: FC<Props> = ({
                   <VStack spacing={1} align="left">
                     {titleNode(project.title)}
                     {descriptionNode(project.description)}
+                    <Image src={project.img}></Image>
                   </VStack>
                 </VStack>
               </Box>

@@ -1,29 +1,30 @@
 [
   {
-    "title": "awesome-layout",
-    "description": "An awesome way to do layout.",
-    "url": "https://github.com/lidachao111222/awesome-layout",
-    "demoUrl": "https://lidachao111222.github.io/awesome-layout/"
+    "title": "IDEA9301-Assignment3",
+    "description": "This is a design project with HI_FI prototype. \n Our project (AMETA) stands on the shoulders of these great innovations, putting the power of AI to take human creativity to a whole new level. It's not just a regular tool, it's a whole new world where 3D Content Creation, AR, and AI come together.\n",
+    "url": "https://www.figma.com/file/sbKIvgeL6OS7pf00cwh07p/IDEA9301?type=design&node-id=468-304",
+    "demoUrl": "https://www.figma.com/file/sbKIvgeL6OS7pf00cwh07p/IDEA9301?type=design&node-id=468-304",
+    "img": "https://i.ibb.co/C2LTwML/IMG1.png"
   },
   {
-    "title": "already-ui",
-    "description": "This is a starter project for building a standalone Web Component using Stencil.",
-    "url": "https://github.com/touching-studio/already-ui",
-    "demoUrl": "https://touching-studio.github.io/already-ui/x"
+    "title": "COMP5347-Assignment2",
+    "description": "In this assignment, I worked as a group to build an eCommerce web application. \n This application has fronend(React), database(Mongodb) backend(EXpressJS).",
+    "url": "https://github.com/lidachao111222/compA2-FE/",
+    "demoUrl": "https://github.com/lidachao111222/compA2-FE/",
+    "img": "https://i.ibb.co/WcfCdnV/img2.png"
+  },
+  {
+    "title": "COMP9110-Assignment2",
+    "description": "This is a Web-based prototype. \n The prototype that includes but not limited to the: \n 1. Skeletonofthewebsite(consistentpagedesign,includingCSS) \n 2. Basic navigation between the main pages \n 3.Hierarchyofpages(sitemap)",
+    "url": "https://dogshaven.netlify.app",
+    "demoUrl": "https://dogshaven.netlify.app",
+    "img": "https://i.ibb.co/C2LTwML/IMG1.png"
   },
   {
     "title": "Ethereum.cn",
-    "description": "https://ethereum.cn",
-    "url": "https://github.com/EthereumCN/ecn-index"
-  },
-  {
-    "title": "EthKnowledge",
-    "description": "You can find all things about Ethereum development!",
-    "url": "https://github.com/EthereumCN/dev"
-  },
-  {
-    "title": "NTF-ring",
-    "description": "a nft frontend demo",
-    "url": "https://github.com/lidachao111222/react-ring"
+    "description": "The website appears to be a Chinese language resource and news platform dedicated to Ethereum, a decentralized, open-source blockchain system featuring smart contract functionality.",
+    "url": "https://ethereum.cn",
+    "demoUrl": "https://ethereum.cn",
+    "img": "https://i.ibb.co/2t1F7Q7/img3.png"
   }
 ]

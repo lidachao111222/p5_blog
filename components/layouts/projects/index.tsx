@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Grid, Heading, Text, VStack, Image } from "@chakra-ui/react";
 import { FC, useState } from "react";
 import Project from "types/project";
 
@@ -33,9 +33,10 @@ const Projects: FC<Props> = ({ projects = [] }) => {
     );
   };
 
-  const descriptionNode = (description: string) => {
-    return <Text color="gray.400">{description}</Text>;
-  };
+  const descriptionNode = (description) => {
+    const paragraphs = description.split('\n');
+    return paragraphs.map((paragraph, index) => <Text key={index} color="gray.400">{paragraph}</Text>);
+};
 
   const projectsNode = () => {
     if (!sortedProjects.length) {
@@ -49,10 +50,10 @@ const Projects: FC<Props> = ({ projects = [] }) => {
     return (
       <Grid
         templateColumns={[
-          "repeat(1, 1fr)",
           "repeat(2, 1fr)",
           "repeat(2, 1fr)",
-          "repeat(3, 1fr)",
+          "repeat(2, 1fr)",
+          "repeat(2, 1fr)",
         ]}
         gap={8}
       >
@@ -77,6 +78,7 @@ const Projects: FC<Props> = ({ projects = [] }) => {
                     <VStack spacing={1} align="left">
                       {titleNode(project.title)}
                       {descriptionNode(project.description)}
+                      <Image src={project.img}></Image>
                     </VStack>
                   </VStack>
                 </Box>
